@@ -1,0 +1,9 @@
+{
+  "name": "nginx",
+  "maintainer": "Ride Share Market",
+  "maintainer_email": "systemsadmin@ridesharemarket.com",
+  "license": "GPL v2",
+  "description": "Docker nginx image",
+  "long_description": "Docker nginx image",
+  "version": "1.0.0"
+}
