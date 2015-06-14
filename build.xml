@@ -1,7 +1,15 @@
 <?xml version="1.0"?>
 <project name="Ride Share Market Nginx" default="main" basedir=".">
 
-    <target name="main">
+    <property name="config.src" value="/home/ubuntu/config/nginx/ssl"/>
+
+    <target name="copy-config">
+        <copy todir="ssl">
+            <fileset dir="${config.src}"/>
+        </copy>
+    </target>
+
+    <target name="main" depends="copy-config">
         <exec executable="cat">
             <arg value="metadata.json"/>
         </exec>
