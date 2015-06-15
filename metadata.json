@@ -5,5 +5,5 @@
   "license": "GPL v2",
   "description": "Docker nginx image",
   "long_description": "Docker nginx image",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

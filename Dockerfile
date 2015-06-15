@@ -24,6 +24,7 @@ COPY logstash-forwarder.json /etc/nginx/logstash-forwarder.json
 COPY ssl/ridesharemarket.com.crt /etc/nginx/ssl/ridesharemarket.com.crt
 COPY ssl/ridesharemarket.com.key /etc/nginx/ssl/ridesharemarket.com.key
 COPY ssl/dhparam.pem /etc/nginx/ssl/dhparam.pem
+COPY ssl/sub.class2.server.ca.pem /etc/nginx/ssl/sub.class2.server.ca.pem
 
 COPY sites-available/ridesharemarket.com.conf /etc/nginx/sites-available/ridesharemarket.com
 COPY sites-available/api.ridesharemarket.com.conf /etc/nginx/sites-available/api.ridesharemarket.com
