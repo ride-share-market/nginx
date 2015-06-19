@@ -12,13 +12,13 @@ Copy ridesharemarket.com.cert ridesharemarket.com.key from keepass to ssl/
 - `sudo docker run -d --name rsm-nginx --volumes-from rsm-app -p 80:80 -t ride-share-market/rsm-nginx:x.x.x`
 - `sudo docker rm -f -v rsm-nginx && sudo docker run -d --name rsm-nginx --volumes-from rsm-app -p 80:80 -t ride-share-market/rsm-nginx:x.x.x`
 
-## Build and Deploy
+## Build and Deploy to local VM
 
 Build docker image locally, tag it, push it to the private docker registry.
 
 - `./docker-build.sh x.x.x`
 
-Deploy on remote server.
+Deploy on local VM.
 
 - `sudo docker pull 192.168.33.10:5000/ride-share-market/rsm-nginx:x.x.x`
 - Initial.
