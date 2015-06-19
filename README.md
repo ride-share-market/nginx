@@ -1,4 +1,7 @@
-## Development
+## NGINX Docker
+
+- `git clone git@github.com:ride-share-market/nginx.git`
+- `cd nginx && git checkout develop`
 
 ## Requirements
 

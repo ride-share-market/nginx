@@ -4,7 +4,7 @@
     <property name="config.src" value="/home/ubuntu/config/nginx/ssl"/>
 
     <target name="copy-config">
-        <copy todir="ssl">
+        <copy todir="ssl" overwrite="true" verbose="true">
             <fileset dir="${config.src}"/>
         </copy>
     </target>
