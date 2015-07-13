@@ -7,7 +7,17 @@
 
 ### SSL Certificates
 
-Copy ridesharemarket.com.cert ridesharemarket.com.key from keepass to ssl/
+Copy these file from from keepass to `ssl/`
+- ca-certs.pem
+- dhparam.pem
+- ridesharemarket.com.crt
+- ridesharemarket.com.key
+
+### Deployment
+
+See the `devops` repo for deployment details.
+
+## Notes
 
 ## Build local and run for testing.
 
